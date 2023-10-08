@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+  font-size: 1.00rem;
+  height: 100%;
+}
+
+body {
+  padding-top: 50px; 
+  position: relative;
+  margin: 0;   
+}
+
+header {
+  padding: 1em 0 2em;
+}
+
+h1,
+h2 {
+  font-family: Montserrat-Regular;
+
+}
+
+h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-image: linear-gradient(to left, #92c7d3, #71ed90, #4ff6ee);
+  background-size: 120% 2px;
+  position: relative;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding: 0.5em;
+  /* color: rgba(254, 254, 254, 0.656); */
+  font-family: Montserrat-Regular;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  text-align: right;
+  font-size: medium;
+}
+
+#custom-navbar{
+background: black;
+/* z-index: 1000;
+color: rgb(237, 212, 212); */
+}
+
+/* .myimage img {
+  height: auto;
+  width: 50%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.home_section {
+  display: flex;
+  width: 100%;
+  /* min-height: 100vh; */
+  background-image: url('/src/assets/home-wallpaper2.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-color: black; */
+}
+
+.home_summary {
+  font-family: Montserrat-Regular;
+  color: rgb(0, 0, 0);
+}
+
+.about_section {
+  font-family: Montserrat-Regular;
+  color: rgb(0, 0, 0);
+  background-color:#D4C7AC;
+  /* text-align:justify; */
+  /* background-image: url('/assests/desktop2.png');
+  background-repeat: no-repeat;
+  background-size: cover;   */
+}
+
+.about_section h3{
+  margin: 0 0 15px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(0.95); 
+}
+
+.projects a{
+  text-decoration: none;
+  position: relative;
+}
+.projects a::before {
+  content: "";
+  left: -26px;
+  width: 65px;
+  height: 35%;
+  bottom:3px;
+  background-color: hsl(20.94deg 85.83% 66.6% / 42%);
+  position: absolute;
+  z-index: 0;
+}
+
+.projects a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+.projects-section {
+  font-family: Montserrat-Regular;
+  /* min-height: 100vh; */
+  color: rgb(0, 0, 0);
+  background-image: url('/src/assets/desktop2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-section{
+  background-image: url('/src/assets/desktop2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-row{
+  padding: 5%;
+}
