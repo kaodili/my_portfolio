@@ -13,8 +13,7 @@
     <title>Kaodili Okwuaka Portfolio</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-collapse-toggle" data-bs-offset="30"
-    >
+<body data-bs-spy="scroll" data-bs-target="#navbar-collapse-toggle" data-bs-offset="30">
 
     <nav class="navbar navbar-dark navbar-expand-lg header-nav fixed-top" id="custom-navbar">
         <div class="container">
@@ -24,6 +23,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle" aria-expanded="false"
                 aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Top Menu -->
             <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
@@ -37,39 +37,28 @@
         </div>
     </nav>
 
-    <section>
-        <div class="container">
-            <div class="row d-flex align-items-start pt-5">
-                <div class="text-center">
-                    <h2 style="font-weight:bold;">HERA</h2>
-                </div>
-            </div>
 
+    <div class="container">
+        <div class="row d-flex align-items-start pt-5">
+            <div class="text-center">
+                <h2 style="font-weight:bold;">HERA</h2>
+            </div>
         </div>
-    </section>
+    </div>
     <section class="project-details" id="details">
-        <div class=container>
+        <div class="container">
             <div class="row d-flex align-items-start">
                 <div class="text-center">
 
-                    <p>Since undertaking this project, my career interests have evolved :). I revisited certain aspects
+                    <p>Since undertaking this project, my career interests have evolved :). I revisited certain
+                        aspects
                         of it through the lens of design thinking.
                         <br><strong>Timeline: </strong> 36 hrs
                         <br><strong>Role:</strong> UI Engineer
-                        <br>Submitted to <a href="https://hackcwru-6.devpost.com/" target="_blank">HackCWRU 6</a></li>
-                        </li>
-                        </ul>
+                        <br>Submitted to <a href="https://hackcwru-6.devpost.com/" target="_blank">HackCWRU 6</a>
                     </p>
                 </div>
-                <div class="text-left">
-                    <div class="col-lg-6">
-
-                    </div>
-
-                </div>
-
             </div>
-
         </div>
     </section>
     <section class="problem-section" id="problem">
@@ -78,21 +67,22 @@
                 <div class="text-left pt-3">
                     <div class="overview">
                         <h3>The Problem</h3>
-                        <p>The American Heart Association published the first Scientific Statement on Acute Myocardial
+                        <p>The American Heart Association published the first Scientific Statement on Acute
+                            Myocardial
                             Infarction in Women. They discovered that:
                         <ul class="">
-                            <li>Cardiovascular disease is the #1 leading cause of death for women in the United States
+                            <li>Cardiovascular disease is the #1 leading cause of death for women in the United
+                                States
                             </li>
                             <li>Women have "atypical" symptoms more often than men and are 7 times more likely to be
                                 misdiagnosed than men</li>
                             <li>High risk abnormalities in ECGs are missed by physicians in Emergency Medicine</li>
 
-                        </ul>In “When Doctors Don’t Listen”, Dr. Kosowsky asserts that active patient involvement can
-                        help
-                        prevent life-threatening errors.
+                        </ul>
+                        In “When Doctors Don’t Listen”, Dr. Kosowsky asserts that active patient involvement
+                        can help prevent life-threatening errors.
                         HERA is an application designed to empower women to confidently address their heart health
-                        concerns
-                        and fight gender inequality in healthcare.
+                        concerns and fight gender inequality in healthcare.
                         </p>
                     </div>
 
@@ -107,20 +97,23 @@
                         </ul>
                     </div>
 
-                    <!-- <div class ="research pt-3">
-                        <h3>Paper reviews and research</h3>
-                        <p></p>
-                    </div> -->
                     <div class="Ideate pt-3">
-
                         <div>
                             <h5 class="pt-2">What is HERA?</h5>
-                            <p>It is a web-based product that leverages deep learning to predict the likelihood of a
-                                patient having heart disease based on their ECG results. Users can upload a photo of
-                                their ECG
-                                results via our web or mobile application, and our system meticulously analyzes these
-                                results
-                                using a deep learning model to estimate the probability of heart-related issues.
+                            <p> The accuracy of a physician's diagnosis improves with their experience in reading
+                                ECG
+                                signals. Artificial Intelligence offers a solution to the problem of misdiagnosis,
+                                particularly
+                                when equipped with a substantial dataset of ECG signals.
+                                <br>
+                                <br>
+                                Hera is a web-based product that leverages deep learning to predict the likelihood
+                                of a
+                                patient having heart disease based on their ECG results.
+                                Users can upload a photo of their ECG results via our web or mobile application, and
+                                our system meticulously
+                                analyzes these results using a deep learning model to estimate the probability of
+                                heart-related issues.
                             </p>
                         </div>
                         <div class="d-flex justify-content-center">
@@ -130,18 +123,20 @@
                         <p class="text-center pt-3" style="font-style: italic;">Core Functionalities of Product</p>
 
                         <h5 class="pt-4">The Backend</h5>
-                        <p>The deep learning model is constructed using a Python-based CNN algorithm, comprising four
-                            convolutional layers and two fully connected layers. To initiate the model training process,
-                            we
-                            ensure that the input data adheres to the required format.
-                            We obtained the ECG dataset from the PhysioNet website and performed preprocessing to render
-                            it
-                            compatible with the CNN in the Keras library.
-                            <br>into separate sets for training and testing, enabling us to evaluate accuracyinto
-                            training and test data sets to assess accuracy.
-                            In the case of the Android app, we utilized Xamarin and Firebase for development, while the
-                            web application was created using a
-                            CherryPy server.
+                        <p>The deep learning model is constructed using a Python-based CNN algorithm, comprising
+                            four
+                            convolutional layers and two fully connected layers. To initiate the model training
+                            process,
+                            we ensure that the input data adheres to the required format.
+                            We obtained the ECG dataset from the PhysioNet website and performed preprocessing to
+                            render
+                            it compatible with the CNN in the Keras library.
+                            <br>Following this, we partitioned the dataset into separate sets for training and
+                            testing,
+                            enabling us to evaluate accuracy.
+                            In the case of the Android app, we utilized Xamarin and Firebase for development, while
+                            the
+                            web application was created using a CherryPy server.
                         </p>
                     </div>
 
@@ -158,17 +153,18 @@
                         <p>were important in determing how the patient might be feeling.</p>
                         <div class="d-flex justify-content-center">
                             <img class="img-fluid" src="/src/assets/crazy6.png" alt="crazy 6 design of features" />
-
-
                         </div>
                         <h5 class="pt-5">User Interface</h5>
-                        <p>It was very important that we kept the interface very simple since most of our users would be
+                        <p>It was very important that we kept the interface very simple since most of our users
+                            would be
                             well in their late 30s
-                            and older. With the project duration being short, I couldn't go over multiple iterations as
+                            and older. With the project duration being short, I couldn't go over multiple iterations
+                            as
                             there were other parts of the project to get to.
                             The product sport a user-friendly, straightforward user interface and include an image
                             uploading feature.
-                            Our strategy involves storing these images on the server, with the intention of leveraging
+                            Our strategy involves storing these images on the server, with the intention of
+                            leveraging
                             the collected data to enhance our model.
                             <br>
                             <br>
@@ -189,7 +185,6 @@
                     <div class="Accomplishments pt-3">
                         <h3>Accomplishments</h3>
                         <ul>
-
                             <li>Winner: Most Efficient Hack</li>
                             <li>Winner: Rockwell's Diversity Prize</li>
                         </ul>
@@ -197,25 +192,21 @@
                     <div class="pt-3">
                         <h3>Going forward</h3>
                         <ul>
-                            <li>Find good dataset that can be used to train the model</li>
                             <li>A login feature to store and secure each patient's data</li>
-                            <li>Hera will store all the ECG results on our server for the purpose of improving our
-                                model's
-                                accuracy.</li>
+                            <li>A large dataset enhances the precision of deep learning models in predicting
+                                abnormalities.
+                                Hera will store all the ECG results on our server for the purpose of improving our
+                                model's accuracy.</li>
                             <li>Implement asking patients for symptoms before collecting ECG result</li>
                             <li>Have the appropriate prompt to ensure the upload is in the right format</li>
+                            <li>Find good dataset that can be used to train the model.</li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
-            <p></p>
-        </div>
-    </section>
+
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">
@@ -226,4 +217,6 @@
     </footer>
     <script type="module" src="/hera/hera.js"></script>
 
-    <body>
+</body>
+
+</html>
