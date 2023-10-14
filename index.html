@@ -15,23 +15,21 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-collapse-toggle" data-bs-offset="30">
-
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="custom-navbar">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="">
         <div class="container">
-            <!-- Brand -->
             <a class="navbar-brand" href="">Kaodili Okwuaka</a>
             <!-- Mobile Toggle -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Top Menu -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+            <div class="collapse navbar-collapse justify-content-end navbar-dark" id="navbar-collapse-toggle">
                 <ul class="navbar-nav ml-auto">
                     <li><a class="nav-link active" data-scroll-nav="0" href="#home"><span>Home</span></a></li>
                     <li><a class="nav-link" data-scroll-nav="1" href="#portfolio"><span>Projects</span></a></li>
-                    <li><a class="nav-link" data-scroll-nav="2" href="/about/"><span>About Me</span></a></li>              
+                    <li><a class="nav-link" data-scroll-nav="2" href="/about/"><span>About Me</span></a></li>
                 </ul>
             </div>
         </div>
@@ -41,66 +39,89 @@
     <section class="home_section" id="home">
         <div class="container home_summary">
             <div class="row align-items-center">
-                <div class="row d-flex align-items-start">
+                <div class="row d-flex align-items-start pt-5">
                     <div class=" text-center pt-5">
-                        <h1 style="font-weight:548;" class="pb-3">Meet Kaodili :)</h1>
-                        <h5>I'm a first-year HCI/UX Research & Design Master's student at the University of Texas at Austin. 
-                            My background is firmly rooted in Computer Science, making me a well-rounded tech enthusiast. 
+                        <h1 style="font-weight:548;" class="pb-3 pt-5">Meet Kaodili :)</h1>
+                        <h5>I'm a first-year HCI/UX Research & Design Master's student at the University of Texas at
+                            Austin.
+                            My background is firmly rooted in Computer Science, making me a well-rounded tech
+                            enthusiast.
                             <br>
                             <br>
-                            However, my heart lies in creating human-centered designs and experiences 
-                            that enhance our everyday lives. 
-                            I am excited to explore my passion, where innovation and empathy come together to create an inclusive and equitable future.</h5>
+                            However, my heart lies in creating human-centered designs and experiences
+                            that enhance our everyday lives.
+                            I am excited to explore my passion, where innovation and empathy come together to create an
+                            inclusive and equitable future.
+                        </h5>
                     </div>
 
                 </div>
 
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center pt-3">
-                    <div class="col-lg-6  pt-5 pb-5">
-                        <img class="img-fluid border border border-dark border-4" src="src/assets/art.jpg"
-                            alt="home page of Hera" />
-                            <!-- add tooltip for what that page is -->
-                    </div>
-            </div>
-        </div>
-    </section>
-
-   
-    <section class="projects-section" id="portfolio">
-        <div class="container px-4 px-lg-5 pb-5 pt-4">
-            <!-- Project One Row-->
-            <div class="row  d-flex align-items-start text-center pb-3">
-                <h2 style="font-weight: bolder; font-size: 2.0rem;">MY WORK</h2>
-            </div>
-            <div class="row gx-0 mb-5 mb-lg-0">
-                <div class="col-lg-4 pt-3">
-                    <a href="/hera/index.html"><img class="img-fluid border border-dark border-4 zoom" src="/src/assets/hera_logo.png"
-                            alt="landing page of Hera"/></a>
-                </div>
-                <div class="col-lg-6">
-                    <div class="text-center h-100">
-                        <div class="d-flex h-100">
-                            <div class="w-100 my-auto text-center projects">
-                                <a href="/hera/index.html">
-                                    <h2 class="text-black" style="font-weight: bolder;">Hera</h2></a>
-                                <h5 class="mb-0 text-black"> Empowering patient self-advocacy in healthcare.
-                                </h5>
-                            </div>
+                <div class="container col-lg-10 px-4 px-lg-5">
+                    <div class="row gx-0 mb-5 mb-lg-0 pt-3 pb-3 justify-content-center">
+                        <div class="col-lg-9 col-md-9 pt-5 pb-5">
+                            <img class="img-fluid" src="src/assets/art.jpg" alt="ha girl sitting and facing an artwork" />
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Contact
-    <section class="contact-section" id="section">
-        <div class="social d-flex justify-content-center">
-            <a class="mx-2" href="#!"><i class="fas fa-envelope"></i>Email</a>
-            <a class="mx-2" href="#!"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    <section class="projects-section" id="portfolio">
+        <div class="container px-4 px-lg-5 pb-5 pt-4">
+            <div class="content-section-heading text-center">
+                <h1 class="mb-5 font-weight-bold">My Projects</h1>
+            </div>
+            <div class="row gx-0 pb-3 justify-content-center h-10">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="/hera/index.html">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h1"></div>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="/src/assets/hera_proj.png" alt="..." />
+                    </a>
+                </div>
+               
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h1"></div>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="/src/assets/ui_audit.png" alt="..." />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="row gx-0 pt-5 justify-content-center h-10">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h1"></div>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="/src/assets/Frame 1ui audit.png" alt="..." />
+                    </a>
+                </div>
+            </div> -->
+
         </div>
+
+
+
         </div>
-    </section> -->
+    </section>
 
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
