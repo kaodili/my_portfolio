@@ -10,7 +10,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         hera: resolve(__dirname, 'hera/index.html'),
-        about: resolve(__dirname, 'about/index.html')
+        about: resolve(__dirname, 'about/index.html'),
+        a_airlines: resolve(__dirname, 'a_airlines/index.html')
       }
     }
   }
