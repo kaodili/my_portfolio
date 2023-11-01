@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/a_arlines/a_airlines.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+    <title>Kaodili Okwuaka Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-collapse-toggle" data-bs-offset="30" style="font-family: Montserrat-Regular;">
+
+    <nav class="navbar navbar-dark navbar-expand-lg header-nav fixed-top" id="custom-navbar">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="/">Kaodili Okwuaka</a>
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Top Menu -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                <ul class="navbar-nav ml-auto">
+                    <li><a class="nav-link" data-scroll-nav="0" href="/"><span>Home</span></a></li>
+                    <li><a class="nav-link active" data-scroll-nav="1" href="/index.html"><span>Projects</span></a>
+                    </li>
+                    <li><a class="nav-link" data-scroll-nav="2" href="/about/"><span>About Me</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row d-flex align-items-start pt-5">
+            <div class="text-center">
+                <h2 style="font-weight:bold;">American Airlines Audit</h2>
+            </div>
+        </div>
+    </div>
+
+    <section class="project-overview">
+        <div class="container">
+            <div class="row d-flex align-items-start">
+                <div class="text-center">
+                    <p>
+                        <br><strong>Role:</strong> UX/UI Designer
+                        <br><strong>Tools: </strong> Figma, Canva
+                        <br><strong>Timeline: </strong>In progress (Fall 2023)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-details" id="project">
+        <div class="container pb-4">
+            <div class="row d-flex align-items-start">
+                <div class="text-left pt-3">
+                    <div class="overview">
+                        <h3>Task</h3>
+                        <p>To heuristically evaluate and develop design recommendations for one flow of a web or mobile UI</p>
+                        <h3>Context</h3>
+                        <p>American airlines stands as one of the foremost airline companies in operation today.
+                            With no age-related restrictions, anyone aged 18 and above can easily book flights, making their services accessible to a wide range of individuals.</p>
+                        While the "poor design choices" in this application may not be readily apparent, I selected it because it's a tool I frequently use, and it appeared to be 
+                        a stimulating challenge for me to envision how it could be enhanced.</p>
+                        
+                        <!-- <h3>My goal</h3>
+                        <p>To redesign the "Booking a flight" flow in a way that improves user eperience</p> -->
+                        
+                        <h3>Design Research</h3>
+                        <p>I focused primarily one flow for this company. I chose the "Booking a flight" flow as I believe it is the most frequently used by all users of this application.</p>
+                        <h5>Heuristic Evaluation</h5>
+                        <p>I started off by auditing the mobile app using Nielson Norman's Ten Usability Heuristics. During this, I discovered there were a lot of steps 
+                            involved in the process of booking a flight and there was no visible way to know how far out the user is. I also noticed that users are not always in control
+                            during this process.         
+                        </p>
+                        <div class="d-flex px-5 justify-content-center ">
+                            <img style="max-width: 75%;" class="img-fluid" src="/src/assets/heurestic_eval.png" alt="Heurestic Evaluation" />
+                        </div>
+                        <h5 class="pt-3">Competitive Analysis</h5>
+                        <p>
+                            I compared it to other airline booking systems and observed that when listing different flight tiers, other websites have a single page that provides a quick overview for 
+                            users to make decisions swiftly. In contrast, American Airlines requires several steps to access the same information. This is ilustrated below.
+                        </p>
+                        <div class="d-flex px-5 justify-content-center" >
+                            <img style="max-width: 75%;" class="img-fluid" src="/src/assets/different_tiers.png" alt="Comp Analysis" />
+                        </div>
+
+                        <h3>Design</h3>
+                        <p>Progress Bar: To tackle the issue of not knowing what step of the progress a user might be in, I introduced a progress bar that'll validate the user's progress. Below are two designs I came up with
+                        </p>
+                        <div class="d-flex px-5 justify-content-center ">
+                            <img style="max-width: 75%;" class="img-fluid" src="/src/assets/Progress Bar options.png" alt="Progress Bar options" />
+                        </div>
+                        <p>I chose <strong>option 2</strong> because of its compact design, which is less distracting. An added benefit is that it somewhat resembles an airplane, which aligns with our theme. 
+                            <br>Next, I delved into color 
+                            choices for this component. Option 1 represents one of the official colors for our brand. However, it fails to deliver a good contrast ratio. While considering a shade of green, which symbolizes the 
+                            official color of good progress, I ultimately settled on option 3. This choice allows us to maintain our brand identity while preserving a minimalist approach and a good contrast ratio.
+                        </p>
+                        <div class="d-flex px-5 justify-content-center ">
+                            <img style="max-width: 70%;" class="img-fluid" src="/src/assets/Color choice.png" alt="Color Options" />
+                        </div>
+                        <!-- <p>With an idea of my progress bar and using results from my evaluation and analysis. I went through iterations of lofi mockups</p>
+                        <div class="d-flex justify-content-center ">
+                            <img class="img-fluid" src="/src/assets/lofi_result.png" alt="" />
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>s
+
+
+</body>
