@@ -19,7 +19,7 @@ header {
 h3::after {
     content: "";
     display: block;
-    width: 50px;
+    width: 30px;
     height: 2px;
     background-image: linear-gradient(to left, #92c7d3, #71ed90, #4ff6ee);
     background-size: 120% 2px;
@@ -46,7 +46,7 @@ h3::after {
 
 
 .project-details h3 {
-    margin: 0 0 15px;
+    margin: 0 0 0px;
     padding-bottom: 5px;
     position: relative;
 }

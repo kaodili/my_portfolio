@@ -13,7 +13,8 @@
     <title>Kaodili Okwuaka Portfolio</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-collapse-toggle" data-bs-offset="30" style="font-family: Montserrat-Regular;">
+<body data-bs-spy="scroll" data-bs-target="#navbar-collapse-toggle" data-bs-offset="30"
+    style="font-family: Montserrat-Regular;">
 
     <nav class="navbar navbar-dark navbar-expand-lg header-nav fixed-top" id="custom-navbar">
         <div class="container">
@@ -52,7 +53,7 @@
                     <p>
                         <br><strong>Role:</strong> UX/UI Designer
                         <br><strong>Tools: </strong> Figma, Canva
-                        <br><strong>Timeline: </strong>In progress (Fall 2023)
+                        <br><strong>Timeline: </strong>3 weeks (Fall 2023)
                     </p>
                 </div>
             </div>
@@ -60,63 +61,222 @@
     </section>
 
     <section class="project-details" id="project">
-        <div class="container pb-4">
-            <div class="row d-flex align-items-start">
-                <div class="text-left pt-3">
-                    <div class="overview">
-                        <h3>Task</h3>
-                        <p>To heuristically evaluate and develop design recommendations for one flow of a web or mobile UI</p>
-                        <h3>Context</h3>
-                        <p>American airlines stands as one of the foremost airline companies in operation today.
-                            With no age-related restrictions, anyone aged 18 and above can easily book flights, making their services accessible to a wide range of individuals.</p>
-                        While the "poor design choices" in this application may not be readily apparent, I selected it because it's a tool I frequently use, and it appeared to be 
-                        a stimulating challenge for me to envision how it could be enhanced.</p>
-                        
-                        <!-- <h3>My goal</h3>
-                        <p>To redesign the "Booking a flight" flow in a way that improves user eperience</p> -->
-                        
-                        <h3>Design Research</h3>
-                        <p>I focused primarily one flow for this company. I chose the "Booking a flight" flow as I believe it is the most frequently used by all users of this application.</p>
-                        <h5>Heuristic Evaluation</h5>
-                        <p>I started off by auditing the mobile app using Nielson Norman's Ten Usability Heuristics. During this, I discovered there were a lot of steps 
-                            involved in the process of booking a flight and there was no visible way to know how far out the user is. I also noticed that users are not always in control
-                            during this process.         
-                        </p>
-                        <div class="d-flex px-5 justify-content-center ">
-                            <img style="max-width: 80%;" class="img-fluid" src="/src/assets/heurestic_eval.png" alt="Heurestic Evaluation" />
-                        </div>
-                        <h5 class="pt-3">Competitive Analysis</h5>
-                        <p>
-                            I compared it to other airline booking systems and observed that when listing different flight tiers, other websites have a single page that provides a quick overview for 
-                            users to make decisions swiftly. In contrast, American Airlines requires several steps to access the same information. This is ilustrated below.
-                        </p>
-                        <div class="d-flex justify-content-center" >
-                            <img style="max-width: 85%;" class="img-fluid" src="/src/assets/different_tiers.png" alt="Comp Analysis" />
-                        </div>
 
-                        <h3>Design</h3>
-                        <p>Progress Bar: To tackle the issue of not knowing what step of the progress a user might be in, I introduced a progress bar that'll validate the user's progress. Below are two designs I came up with
+        <!-- Overview -->
+        <div class="container-fluid pb-4 pt-3">
+            <div class="container" style="background-color: rgb(241, 241, 241);">
+                <div class="row d-flex align-items-start">
+                    <div class="overview text-left pt-3">
+                        <h3>Overview</h3>
+                        <p>American Airlines, a leading force in the airline industry, serves a diverse clientele,
+                            including business professionals, frequent flyers, families, and international
+                            travelers.
+                            With a commitment to efficiency and comfort, it remains a preferred choice for a broad
+                            audience seeking exceptional travel experiences.
+                            <br>
+                            <br>
+                            This is a UX/UI audit evaluating the user experience of the flight booking process
+                            within
+                            the mobile application. The goal is to:
+                        <ul>
+                            <li>Identify existing opportunities for UX improvement during the booking process</li>
+                            <li>Propose redesign solutions</li>
+                        </ul>
                         </p>
-                        <div class="d-flex justify-content-center ">
-                            <img style="max-width: 80%;" class="img-fluid" src="/src/assets/progress_bar_options.png" alt="Progress Bar options" />
-                        </div>
-                        <p>I chose <strong>option 2</strong> because of its compact design, which is less distracting. An added benefit is that it somewhat resembles an airplane, which aligns with our theme. 
-                            <br>Next, I delved into color 
-                            choices for this component. Option 1 represents one of the official colors for our brand. However, it fails to deliver a good contrast ratio. While considering a shade of green, which symbolizes the 
-                            official color of good progress, I ultimately settled on option 3. This choice allows us to maintain our brand identity while preserving a minimalist approach and a good contrast ratio.
-                        </p>
-                        <div class="d-flex justify-content-center ">
-                            <img style="max-width: 70%;" class="img-fluid" src="/src/assets/Color choice.png" alt="Color Options" />
-                        </div>
-                        <!-- <p>With an idea of my progress bar and using results from my evaluation and analysis. I went through iterations of lofi mockups</p>
-                        <div class="d-flex justify-content-center ">
-                            <img class="img-fluid" src="/src/assets/lofi_result.png" alt="" />
-                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-    </section>s
 
+        <!-- Process -->
+        <div class="container">
+            <h3 class="pt-3">Process</h3>
+            <div class="d-flex px-1 justify-content-center ">
+                <div class="col col-sm-12 col-md-12 col-lg-8 ">
+                    <img style="max-width: 100%;" class="img-fluid" src="/src/assets/Design_Process.png"
+                        alt="My Design Process" />
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="Heurestic Evaluation">
+                    <h5>Heuristic Evaluation</h5>
+                    <p>I started off by conducting a heuristic evaluation of the mobile application using <a
+                            href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank">Jakob
+                            Nielsen's Ten Usability Heuristics to get an understanding of the overall
+                            usability.</a>
+                    </p>
+                    <h6>Most of the usability issues were present in:</h6>
+                    <ol>
+                        <li>Aesthetic and minimalist design: There was an overload of information and visual
+                            clutter. </li>
+                        <li>Recognition rather than recall: The cognitive load for the user was high.</li>
+                        <li>User control and freedom: Absence of clearly marked exit and option to fully
+                            interact
+                            with oher parts of the system.</li>
+                        <li>Visibility of System Status: Overall the process for booking a flight is a
+                            multi-step
+                            flow,
+                            however the system leaves users without a clear understanding
+                            of the number of steps involved. </li>
+                    </ol>
+
+                    <div class="d-flex justify-content-center ">
+                        <div class="col-lg-8">
+                            <img style="max-width: 100%;" class="img-fluid" src="/src/assets/all_heurestic_eval.png"
+                                alt="Heurestic Evaluation Result using Nielsen's Heurestics" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="Comp Analysis">
+                                <h5 class="pt-3">Competitive Analysis</h5>
+                                <p>
+                                    I compared it to other airline booking systems and observed that
+                                     I compared it with other airline booking systems. I noticed that, when it comes to listing different flight tiers, other websites have a single page that allows users to have a quick overview
+                                     and make decisions swiftly. However, with American Airlines, it involves a few steps to access information about other tiers 
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <img style="max-width: 85%;" class="img-fluid" src="" alt="Comp Analysis" />
+                                </div>
+                            </div> -->
+            </div>
+        </div>
+
+
+        <!-- Design Iterations -->
+        <div class="container-fluid pt-5">
+            <div class="container">
+                <div class="Iterations">
+                    <h3 class="pt-5">Design Iterations</h3>
+
+                    <div class="row gx-0 justify-content-center h-10">
+                        <div class="col-lg-5 pt-4">
+                            <p class="pt-4">Following my analysis and assesment, I started exploring designs for the
+                                progrss bar. Although Option 1 offered a neat design, I chose Option 2 for its
+                                precision,
+                                given the density of existing information on the screen. Interestingly, I received
+                                feedback that Option 2 resembled an airplane, aligning well with the theme :)
+                                <br>For my color, I adhered to the brand's primary blue palette, briefly exploring
+                                green for its association with progress, but it didn't blend effectively.
+                            </p>
+                        </div>
+                        <div class="col-lg-7">
+                            <img style="max-width: 100%;" class="img-fluid" src="/src/assets/progress_bar.png"
+                                alt="Heurestic Evaluation Result using Nielsen's Heurestics" />
+                        </div>
+                    </div>
+                    <!-- <div class="row gx-0 pb-3 justify-content-center h-10">
+                                    <div class="col-lg-5 pt-4">
+        
+                                    </div> -->
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Prototype -->
+        <div class="container-fluid pt-5" style=" background-color: rgb(241, 241, 241);">
+            <div class="container">
+                <div class="Prototype">
+                    <h3 class="pb-3">Prototype</h3>
+                    <p>Further researching other airline booking systems and going through different iterations, I
+                        arrived at this.
+                        from peers as well.</p>
+
+                    <div class="row gx-0 pt-3 pb-3 justify-content-center h-10">
+                        <div class="col-lg-5 pt-3">
+                            <ol>
+                                <li>I integrated a <strong>progress bar</strong> to give users a visual indication
+                                    of their progress, enabling
+                                    effective communication
+                                    and visibility, as well encouraging completion of the booking progress.
+                                </li>
+                                <li>Additionally, I introduced a <strong>vertical scroll</strong> section that
+                                    provides a comprehensive overview of prices for the
+                                    preceding and subsequent days, facilitating seamless price comparison. This
+                                    section also includes a user-friendly option to effortlessly
+                                    modify the initially selected date. </li>
+                                <li>Applying Hick's Law, I streamlined the user experience by simplifying the visual
+                                    presentation and minimizing the steps
+                                    required to explore different tiers (Basic Economy, Main Cabin, First Class)
+                                    through a <strong>tabbed menu</strong> ,
+                                    ensuring essential information is maintained
+                                </li>
+                                <li>I reduced the size of the 'sort screen' and implemented a visual cue to inform
+                                    users about the sorting action by
+                                    displaying the selected option after the action is completed.
+                                </li>
+
+                            </ol>
+                        </div>
+                        <div class="col-lg-7">
+                            <img style="max-width: 100%;" class="img-fluid"
+                                src="/src/assets/select_flight_prototype.png"
+                                alt="Prototype of a user choosing a flight" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row gx-0 pt-2 pb-3 justify-content-center h-10">
+                        <div class="col-lg-7">
+                            <img style="max-width: 100%;" class="img-fluid" src="/src/assets/flight_credit.png"
+                                alt="Flight credit" />
+                            </a>
+                        </div>
+                        <div class="col-lg-5 pt-5">
+                            <ol start="5">
+                                <li>To address the problem of users exiting the app, I initially proposed two
+                                    solutions.
+                                    However, given the technical complexities
+                                    related to price fluctuations, incorporating a 'save and return to progress'
+                                    option
+                                    is not optimal.
+                                    <br>Consequently, I've streamlined the solution to include a dedicated in-app
+                                    screen
+                                    for searching flight credits, which I consider the most optimal approach.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Reflection -->
+        <div class="container pb-5">
+            <h3 class="pt-5 pb-3">Reflection</h3>
+            <ul>
+                <li><strong>An infinity progress bar extending beyond a single screen.</strong> This will be optimal
+                    for a flow where all the steps exceed the width of the mobile phone</li>
+                <li>Substituting words in the progress bar with icons will enhance cleanliness and compactness.</li>
+                <li><strong>Always start with sketches and lofi diagrams.</strong>Starting with this approach is
+                    crucial because creating hi-fi prototypes can be complex,
+                    and it's more efficient to explore creativity through sketches first. This way, I can avoid
+                    investing too much time in high-fidelity work that might require significant revisions
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- <div style="position: relative; padding-bottom: 42.91666666666667%; height: 0;">
+                            <iframe src="https://www.loom.com/embed/cdfe906b47664e80a9ec32510d366432?sid=c44f871e-b125-4db1-a963-dcc6291491e2" frameborder="0"
+                             webkitallowfullscreen mozallowfullscreen allowfullscreen 
+                             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                        </div> -->
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">
+            Made with <span class="bi bi-heart"></span><br>
+            Copyright &copy; 2023 Kaodili
+
+        </div>
+    </footer>
+    <script type="module" src="a_airlines.js"></script>
 
 </body>
