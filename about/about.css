@@ -1,17 +1,20 @@
 html {
     box-sizing: border-box;
-    font-size: 1.00rem;
+    font-size: 0.95rem;
     height: 100%;
   }
   
   body {
     position: relative;
     margin: 0;   
-    font-family: Montserrat-Regular;
+
   }
   
   header {
     padding: 1em 0 2em;
+  }
+  h2,h3,h4,h5{
+    font-family: Montserrat-Regular;
   }
   
   h3::after {
@@ -26,6 +29,7 @@ html {
   .navbar-nav {
     text-align: right;
     font-size: 17px;
+    font-family: Montserrat-Regular;
   }
   
   .navbar-brand {
@@ -35,6 +39,7 @@ html {
     font-weight:100;
     text-decoration: none;
     font-size: 22px;
+    font-family: Montserrat-Regular;
   }
   #custom-navbar {
     background: black;
@@ -54,12 +59,10 @@ html {
   
   
   .home_summary {
-    font-family: Montserrat-Regular;
     color: rgb(0, 0, 0);
   }
   
   .about_section {
-    font-family: Montserrat-Regular;
     color: rgb(0, 0, 0);
     /* background-color:#f3dec5; */
   }

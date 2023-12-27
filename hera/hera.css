@@ -9,9 +9,11 @@ body {
     position: relative;
     margin: 0;
     background-color: white;
+    
+}
+h1,h2,h3,h4,h5{
     font-family: Montserrat-Regular;
 }
-
 header {
     padding: 1em 0 2em;
 }
@@ -32,11 +34,13 @@ h3::after {
     font-size: 22px;
     font-weight: 100;
     text-decoration: none;
+    font-family: Montserrat-Regular;
 }
 
 .navbar-nav {
     text-align: right;
     font-size: 17px;
+    font-family: Montserrat-Regular;
 }
 
 #custom-navbar {

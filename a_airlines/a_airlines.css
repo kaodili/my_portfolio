@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: 1.00rem;
+    font-size: 0.90rem;
     height: 100%;
 }
 
@@ -9,7 +9,6 @@ body {
     position: relative;
     margin: 0;
     background-color: white;
-    font-family: Montserrat-Regular;
 }
 
 header {
@@ -32,19 +31,26 @@ h3::after {
     font-size: 22px;
     font-weight: 100;
     text-decoration: none;
+    font-family: Montserrat-Regular;
    
 }
 
 .navbar-nav {
     text-align: right;
     font-size: 17px;
+    font-family: Montserrat-Regular;
 }
 
 #custom-navbar {
     background: black;
 }
 
-
+h2{
+    font-family: Montserrat-Regular;
+}
+.project-details h2,h3,h4,h5{
+    font-family: Montserrat-Regular;
+}
 .project-details h3 {
     margin: 0 0 0px;
     padding-bottom: 5px;
